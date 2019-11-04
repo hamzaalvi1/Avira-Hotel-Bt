@@ -3,3 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face{
+    font-family: "Raleway-Medium";
+    src: url("/fonts/Raleway/Raleway-Medium.ttf")
+}
+@font-face{
+    font-family: "LobsterTwo-BoldItalic";
+    src: url("/fonts/Lobster_Two/LobsterTwo-BoldItalic.ttf")
+}
+.header{
+    max-width: 100%;
+    min-width: 50%;
+}
+
+#navbar{
+    background: #424242;
+    height: 55px;
+    
+}
+#navbar .logo{
+    padding: 10px;
+    font-family: "LobsterTwo-BoldItalic";
+    color: white;
+    text-shadow: 1px 1px 2px whitesmoke;
+    font-size: 30px;
+    padding-left: 19px;
+}
+#navbar ul{
+float: right;
+position: relative;
+bottom: 48px;
+padding-right: 27px;
+}
+
+#navbar ul li{
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+}
+#navbar a{
+    padding:9px;
+    text-decoration: none;
+    font-family: "Raleway-Medium";
+    color:white;
+    text-shadow: 1px 1px 2px whitesmoke;
+}
+#navbar ul li:hover{
+    background-color: #7b1fa2;
+    color:white;
+}
