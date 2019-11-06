@@ -7,6 +7,12 @@
     font-family: "Raleway-Medium";
     src: url("/fonts/Raleway/Raleway-Medium.ttf")
 }
+
+@font-face{
+    font-family: "Raleway-ExtraBold";
+    src: url("/fonts/Raleway/Raleway-ExtraBold.ttf")
+}
+
 @font-face{
     font-family: "LobsterTwo-BoldItalic";
     src: url("/fonts/Lobster_Two/LobsterTwo-BoldItalic.ttf")
@@ -15,7 +21,7 @@
     max-width: 100%;
     min-width: 50%;
 }
-
+/* navbar */
 #navbar{
     background: #424242;
     height: 55px;
@@ -49,6 +55,62 @@ padding-right: 27px;
     text-shadow: 1px 1px 2px whitesmoke;
 }
 #navbar ul li:hover{
-    background-color: #7b1fa2;
-    color:white;
+    background-color: #ffb74d;
+    
+}
+#navbar a:hover{
+    color: black;
+    text-shadow: 1px 1px 1px grey;
+
+}
+/* showcase */
+
+.showcase{
+    background-image: url("/Images/showcase.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+.showcase #showcase-content{
+    
+     color: white;
+     text-align: center;
+     padding-top: 200px;
+}
+
+.showcase #showcase-content h1{
+    font-size: 70px;
+    font-family: "Raleway-ExtraBold";
+    line-height: 2em;
+    text-shadow: 1px 1px 3px grey;
+
+}
+
+.lead{
+    font-size: 21px;
+    font-family: "Raleway-Medium";
+    line-height: 2.4em;
+    text-shadow: 1px 1px 3px grey;
+    
+}
+
+#showcase-content h1 span{
+    color: #ffb74d;
+}
+
+.btn{
+    display: inline-block;
+    background: #424242;
+    color: white;
+    padding: 15px;
+    text-decoration: none; 
+    font-family: "Raleway-Medium";
+    border-radius: 4px;
+    text-shadow: 1px 1px 3px grey;
+
+}
+.btn:hover{
+    background-color: #ffb74d;
+    color:white
 }
