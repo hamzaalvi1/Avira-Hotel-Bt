@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body, html{
+    max-height: 800px;
+    min-height: 700px;
+}
 @font-face{
     font-family: "Raleway-Medium";
     src: url("/fonts/Raleway/Raleway-Medium.ttf")
@@ -14,8 +18,8 @@
 }
 
 @font-face{
-    font-family: "LobsterTwo-BoldItalic";
-    src: url("/fonts/Lobster_Two/LobsterTwo-BoldItalic.ttf")
+    font-family: "DancingScript-Bold";
+    src: url("/fonts/Lobster_Two/DancingScript-Bold.ttf")
 }
 .header{
     max-width: 100%;
@@ -23,13 +27,13 @@
 }
 /* navbar */
 #navbar{
-    background: #424242;
+    background: #282828;
     height: 55px;
     
 }
 #navbar .logo{
     padding: 10px;
-    font-family: "LobsterTwo-BoldItalic";
+    font-family: "DancingScript-Bold";
     color: white;
     text-shadow: 1px 1px 2px whitesmoke;
     font-size: 30px;
@@ -66,51 +70,64 @@ padding-right: 27px;
 /* showcase */
 
 .showcase{
-    background-image: url("/Images/showcase.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 600px;
+    background-image: url("/Images/markus-spiske-g5ZIXjzRGds-unsplash.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height:729px;
+   max-height: 800px;;
 }
-.showcase #showcase-content{
-    
-     color: white;
-     text-align: center;
-     padding-top: 200px;
+.showcase-content{
+ text-align: center;
+ color: white;
+ margin: auto;
+ padding: 0px 30px;
+ padding-top: 16%;
 }
-
-.showcase #showcase-content h1{
-    font-size: 70px;
+.showcase-content h1{
     font-family: "Raleway-ExtraBold";
-    line-height: 2em;
-    text-shadow: 1px 1px 3px grey;
-
+    font-size: 60px;
+    line-height: 2.5em;
+    text-shadow: 1px 1px 1px grey;
 }
-
-.lead{
-    font-size: 21px;
-    font-family: "Raleway-Medium";
-    line-height: 2.4em;
-    text-shadow: 1px 1px 3px grey;
-    
-}
-
-#showcase-content h1 span{
+.showcase .text-primary{
     color: #ffb74d;
-}
 
-.btn{
-    display: inline-block;
-    background: #424242;
-    color: white;
-    padding: 15px;
-    text-decoration: none; 
+}
+.showcase-content p{
     font-family: "Raleway-Medium";
-    border-radius: 4px;
-    text-shadow: 1px 1px 3px grey;
+    font-size: 20px;
+    line-height: 2.5em;
+    text-shadow: 1px 1px 1px grey;
 
 }
-.btn:hover{
-    background-color: #ffb74d;
-    color:white
+.showcase-content a{
+    background: #282828;
+    color: white;
+    padding: 20px 15px ;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 25px;
+    font-family: "Raleway-Medium";
+    text-shadow: 1px 1px 1px grey;
+
+}
+.showcase-content a:hover{
+    background: #ffb74d;
+    color: black;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #282828;
+
+}
+/* Footer */
+.footer-content{
+    background: #181818;
+    text-align: center;
+    color: white;
+    padding: 8px 10px;
+    font-family: "Raleway-Medium";
+    font-size: 18px;
+    text-shadow: 1px 1px 1px grey;
+
 }
