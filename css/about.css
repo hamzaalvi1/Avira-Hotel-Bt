@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E8E8E8;
+}
+
+@font-face{
+    font-family: "Raleway-Medium";
+    src: url("/fonts/Raleway/Raleway-Medium.ttf")
+}
+
+@font-face{
+    font-family: "Raleway-ExtraBold";
+    src: url("/fonts/Raleway/Raleway-ExtraBold.ttf")
+}
+
+@font-face{
+    font-family: "DancingScript-Bold";
+    src: url("/fonts/Lobster_Two/DancingScript-Bold.ttf")
+}
+
+.header{
+    max-width: 100%;
+    min-width: 50%;
+}
+/* navbar */
+#navbar{
+    background: #282828;
+    height: 55px;
+    
+}
+#navbar .logo{
+    padding: 10px;
+    font-family: "DancingScript-Bold";
+    color: white;
+    text-shadow: 1px 1px 2px whitesmoke;
+    font-size: 30px;
+    padding-left: 19px;
+}
+#navbar ul{
+float: right;
+position: relative;
+bottom: 48px;
+padding-right: 27px;
+}
+
+#navbar ul li{
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+}
+#navbar a{
+    padding:9px;    
+    text-decoration: none;
+    font-family: "Raleway-Medium";
+    color:white;
+    text-shadow: 1px 1px 2px whitesmoke;
+}
+#navbar ul li:hover{
+    background-color: #ffb74d;
+    
+}
+#navbar a:hover{
+    color: black;
+    text-shadow: 1px 1px 1px grey;
+
+}
+/* About Info */
+
+.container{
+    margin : 0px 50px;
+}
+.aboutInfo-left{
+    float:left;
+    width: 50%
+}
+
+.aboutInfo-left p{
+    font-family: "Raleway-Medium";
+    line-height: 2.5em;
+    text-align: justify;
+    font-size: 19px;
+    text-shadow: 1px 0px 1px grey;
+}
+.aboutInfo-left h1{
+    font-family: "Raleway-ExtraBold";
+    font-size: 40px;
+    line-height: 1.9em;
+    text-shadow: 1px 0px 1px grey;
+
+}
+.aboutInfo-right{
+    float: right;
+    width: 29%;
+}
+.aboutInfo-right img{
+    width: 300px;
+    height: 400px;
+    border-radius: 60%;
+    display: block;
+    float: right;
+    padding-top: 10px;
+    
+}
+.text-primary{
+    color: #ffb74d;
+
+}
+.testimonials{
+    background: url(../Images/the-fleming-Reception-and-Lounge-810x540.jpg) no-repeat center center/cover;
+    height: 450px;
+
+}
+.testimonials h1{
+    font-family: "Raleway-ExtraBold";
+    font-size: 40px;
+    line-height: 1.9em;
+    text-shadow: 1px 0px 1px grey;
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+}
+#testimonial{
+    margin: auto;
+    width: 900px; 
+    background-color:rgba(255, 153, 77, .9);
+    height: 150px;
+    padding: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 1px 1px 2px grey;
+}
+#testimonial img{
+    height: 130px;
+    display: block;
+    float: left;
+    border-radius: 60%;
+
+}
+#testimonial p{
+    font-family: "Raleway-Medium";
+    color: white;
+    padding-top: 36px;
+    padding-left: 3px;
+    text-shadow: 1px 2px 2px grey;
+}
+
+
+/* Footer */
+.footer-content{
+    background: #181818;
+    text-align: center;
+    color: white;
+    padding: 8px 10px;
+    font-family: "Raleway-Medium";
+    font-size: 18px;
+    text-shadow: 1px 1px 1px grey;
+
+}
+.clr{
+    clear: both;
+}

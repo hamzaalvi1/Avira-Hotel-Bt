@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+body{
+    background-color: #E8E8E8;
+}
+
+@font-face{
+    font-family: "Raleway-Medium";
+    src: url("/fonts/Raleway/Raleway-Medium.ttf")
+}
+
+@font-face{
+    font-family: "Raleway-ExtraBold";
+    src: url("/fonts/Raleway/Raleway-ExtraBold.ttf")
+}
+
+@font-face{
+    font-family: "DancingScript-Bold";
+    src: url("/fonts/Lobster_Two/DancingScript-Bold.ttf")
+}
+
+
+
+.header{
+    max-width: 100%;
+    min-width: 50%;
+}
+/* navbar */
+#navbar{
+    background: #282828;
+    height: 55px;
+    
+}
+#navbar .logo{
+    padding: 10px;
+    font-family: "DancingScript-Bold";
+    color: white;
+    text-shadow: 1px 1px 2px whitesmoke;
+    font-size: 30px;
+    padding-left: 19px;
+}
+#navbar ul{
+float: right;
+position: relative;
+bottom: 48px;
+padding-right: 27px;
+}
+
+#navbar ul li{
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+}
+#navbar a{
+    padding:9px;    
+    text-decoration: none;
+    font-family: "Raleway-Medium";
+    color:white;
+    text-shadow: 1px 1px 2px whitesmoke;
+}
+#navbar ul li:hover{
+    background-color: #ffb74d;
+    
+}
+#navbar a:hover{
+    color: black;
+    text-shadow: 1px 1px 1px grey;
+
+}
+
+/* contact form */
+.contact-form{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.contact-form h1{
+    font-family: "Raleway-ExtraBold";
+    font-size: 40px;
+    line-height: 1.7em;
+    text-shadow: 1px 1px 1px grey;
+}
+.contact-form p{
+ font-family: "Raleway-Medium";
+ word-spacing: 4px;
+ font-size: 18px;
+ line-height: 1.3em;
+ text-shadow: 1px 1px 1px grey;
+
+}
+.text-primary{
+    color: #ffb74d;
+
+}
+.form-group label{
+    display:block;
+    padding: 10px 0px;
+    font-family: "Raleway-Medium";
+    font-size: 16px;
+    text-shadow: 1px 1px 1px grey;
+}
+.form-group input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid grey;
+
+}
+.form-group textarea{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    height: 220px;
+}
+.form-group input:focus{
+    outline: none;
+    border: 1px solid #ffb74d; 
+}
+.form-group textarea:focus{
+    outline: none;
+    border: 1px solid #ffb74d; 
+}
+.form-group label:hover{
+    color: #ffb74d
+}
+.btn{
+    display: block;
+    margin: auto;
+    background: #282828;
+    color: white;
+    padding: 10px 17px;
+    width: 160px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 25px;
+    font-family: "Raleway-Medium";
+    text-shadow: 1px 1px 1px grey;
+    margin-bottom: 40px;
+    font-size: 15px
+
+}
+.btn:hover{
+    background: #ffb74d;
+    color: black;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #282828;
+}
+/* Hotel detail icon */
+.detail-hotel{
+    max-width: 100%;
+}
+.icon-box-1{
+    background:rgb(8, 8, 8);
+    width: 33%;
+    height: 230px;
+    float: left;
+}
+.icon-box-2{
+    background:rgb(8, 8, 8);
+    width: 33%;
+    height: 230px;
+    float: left;
+}
+.icon-box-3{
+    background:rgb(8, 8, 8);
+    width: 34%;
+    height: 230px;
+    float: left;
+}
+.material-icons{
+    color: white;
+    font-size: 4rem;
+    text-shadow: 0px 0px 1px white;
+
+
+}
+.phone{
+    padding: 19px 180px
+}
+.email{
+    padding: 19px 180px
+}
+.location{
+    padding: 19px 180px
+
+}
+.detail-hotel h3{
+   font-family: "Raleway-ExtraBold";
+   text-align: center;
+   font-size: 27px; 
+   line-height: 3em;
+   color: white;
+   text-shadow: 0px 0px 1px white;
+    
+} 
+.detail-hotel p{
+    font-family: "Raleway-Medium";
+    text-align: center;
+    font-size: 16px;
+    line-height: 0.5em;
+    color: white;
+    text-shadow: 0px 0px 1px whitesmoke;
+ } 
+/* Footer */
+.footer-content{
+    background: #181818;
+    text-align: center;
+    color: white;
+    padding: 8px 10px;
+    font-family: "Raleway-Medium";
+    font-size: 18px;
+    text-shadow: 1px 1px 1px grey;
+
+}
